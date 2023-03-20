@@ -33,7 +33,7 @@ steps:
     mavenAuthenticateFeed: false
     effectivePomSkip: false
     sonarQubeRunAnalysis: true
-    sqMavenPluginVersionChoice: 'latest'
+    sqMavenPluginVersionChoice: 'pom'
 - task: SonarCloudAnalyze@1
 - task: SonarCloudPublish@1
   inputs:
